@@ -7,5 +7,4 @@ hello
 
 **testing on vscode**
 
-
-![Image](../../../Downloads/dog.jpg)
+![lab-report-1-week-0.md](screenshot%20for%20lab0.png)
