@@ -1,20 +1,27 @@
-Friday, September 30, you’ll submit a lab report by writing a blog post like we just described. The topic will be remote access.
-
-You will write a tutorial for incoming 15L students (and your future self!) about how to log into a course-specific account on ieng6. Your post should include the steps you took, along with screenshots of what each step looked like. You’re free to use the screenshots you took for lab 1, or new ones. Complete any steps you didn’t complete in your group on your own.
-
-Overall, make sure you have at least 6 screenshots, one for each of the steps below (though more is useful, remember that this will help out your future self). For each step include 2-3 sentences or bullet points describing what you did. If for some reason you didn’t do the step exactly, describe why not (maybe your computer already had something on it, maybe the department computers worked differently, etc).
-
-Installing VScode
-Remotely Connecting
-Trying Some Commands
-Moving Files with scp
-Setting an SSH Key
-Optimizing Remote Running
-You should complete the writing on your own. Feel free to ask anyone (staff or other students are fine!) for help if you’re struggling to get remote access set up, understand commands, get your writing to show up on Github Pages, etc. But do not get help from anyone on authoring the report itself – the writing and screenshots must be your own.
-
-You will upload your submission by publishing the page on Github Pages, then printing the page to PDF and uploading to the Lab Report 1 assignment on Gradescope.
-
 Hey future self! This is you from the past reminding you what you did for this lab assignment.
 
-Your first actual task (excluding all the boring introductions) was to install VScode and even github. Two things that should've already been downloaded to start this lab.
+Your first actual task (excluding all the boring introductions) was to install VScode and Github. Two things that should've already been downloaded to start this lab.
 
+![1](vscode(labreport).png)
+
+Next up, you needed to test the waters via remotely connecting. Using simple commands like ls and ssh on the remote server.
+
+![2](simple%20commands.png)
+
+![3](testing%20ls.png)
+
+Sadly, you encountered some problems here at Part 6, when you needded to access SSH with scp
+
+Even though you couldn't finish this during the lab session you were able to access your password the day after. I think the password issue was a common occurence and might have been the result of server overload. However, you got it done! Here are your results
+
+![4](moving%20files%20ssh%20via%20scp.png)
+
+You now have access to the remote computer and server. Now you are easily able to do things like playing with a java file even though you don't have java installed. 
+
+This is the main part of the assignment, using ssh keys so you don't have to log in via your password everytime you want to do anything.
+
+![5](ssh%20keys.png)
+
+Lastly, what I believed to be the main idea of this lab. The ability to extrapolate the time we save via not needing to enter a password over the course of many iterations. This was summed up with the idea of "optimizing remote running"
+
+![6](optimizing%20remote%20running.png)
