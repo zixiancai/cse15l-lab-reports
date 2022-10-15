@@ -15,13 +15,16 @@ I tested this with an array of size 1, size 2, and size 3, all with different no
 
 ![errors](three%20errors.png)
 
-All of these errors were similar to this:
+The symptoms or these errors were similar to this:
 
 ```
 arrays first differed at element [0]; expected:<3> but was:<0>
 ```
 
-By closely examining the code, we can see that this method is creating a "newArray",assigns all the values of our original array to the values of this new array, and returns the orginal but modified array. Instead, we should be assigning values to the new array via the values of our original. Then returning our new, temporary array.
+By closely examining the code, we can see that this method is creating a "newArray",assigns all the values of our original array to the values of this new array, and returns the orginal but modified array. This is our bug and its connection to the symptom.
+
+Instead, we should be assigning values to the new array via the values of our original. Then returning our new, temporary array.
+
 
 
 This is how I did it:
@@ -31,3 +34,4 @@ This is how I did it:
 
 This was the result:
 ![the result of array changes](the%20result%20of%20array%20changes.png)
+
