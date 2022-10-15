@@ -33,7 +33,6 @@ You would replace XX with your specific username given by the link above, try it
 
 Here is the code in text for "WhereAmI.java" Take a look!:
 
-Code Start:
 
 ```
 class WhereAmI {
@@ -53,7 +52,6 @@ class WhereAmI {
 }
 ```
 
-... Code end
 
 
 
