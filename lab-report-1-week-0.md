@@ -1,6 +1,10 @@
-Hey future self! This is you from the past reminding you what you did for this lab assignment.
+Hey future self! This is you from the past reminding you what you did for this lab assignment. Also, Hi future students
 
 Your first actual task (excluding all the boring introductions) was to install VScode and Github. Two things that should've already been downloaded to start this lab.
+Here are the links:
+[github link](https://desktop.github.com/)
+[vscode link](https://code.visualstudio.com/)
+
 
 ![1](vscode(labreport).png)
 
