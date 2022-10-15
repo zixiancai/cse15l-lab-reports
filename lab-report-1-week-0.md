@@ -25,3 +25,5 @@ This is the main part of the assignment, using ssh keys so you don't have to log
 Lastly, what I believed to be the main idea of this lab. The ability to extrapolate the time we save via not needing to enter a password over the course of many iterations. This was summed up with the idea of "optimizing remote running"
 
 ![6](optimizing%20remote%20running.png)
+
+test1
