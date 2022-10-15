@@ -8,6 +8,6 @@ hello
 
 ![lab-report-1-week-0.md](screenshotlab0.png)
 
-[Lab Report 1](https://zixiancai.github.io/cse15l-lab-reports/)
+[Lab Report home](https://zixiancai.github.io/cse15l-lab-reports/)
 
 [The lab report](https://github.com/zixiancai/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
