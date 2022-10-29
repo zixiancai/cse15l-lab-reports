@@ -86,6 +86,19 @@ Here are a few examples of using the "add method":
 
 ![image](https://user-images.githubusercontent.com/86514102/198816319-70850953-8431-4045-800e-9ac4b1f87cf7.png)
 
+For these three screenshots, the methods in this block of code are being called: 
+```java
+            if (url.getPath().contains("/add")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    word[counter] = (parameters[1]);
+                    counter++;
+                    words = words + " " + word[counter-1];
+                    return ("You have added the word: " + word[counter-1]);
+                
+            }
+```
+
 
 
 
