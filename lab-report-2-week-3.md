@@ -70,8 +70,19 @@ class SearchEngine {
 ```
 
 The following are my screenshots for the required assignments:
+This is me starting the server!:
 
 ![image](https://user-images.githubusercontent.com/86514102/198816185-ccd6714c-221f-498b-8d0d-0697119f6015.png)
+
+This is what follow when you click the "link", 
+
+![image](https://user-images.githubusercontent.com/86514102/198816226-994aec12-04f1-47d6-b3d8-5fb8220391c8.png)
+
+Here are a few examples of using the "add method":
+![image](https://user-images.githubusercontent.com/86514102/198816301-be83bc18-a835-463a-a2dc-160c5149fbd2.png)
+![image](https://user-images.githubusercontent.com/86514102/198816306-9ce3c39b-c28f-490a-b2a0-0b637f17ea37.png)
+
+
 
 Part 2
 
