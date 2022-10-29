@@ -69,6 +69,9 @@ class SearchEngine {
 }
 ```
 
+The following are my screenshots for the required assignments:
+
+![image](https://user-images.githubusercontent.com/86514102/198816185-ccd6714c-221f-498b-8d0d-0697119f6015.png)
 
 Part 2
 
