@@ -99,6 +99,46 @@ For these three screenshots, the methods in this block of code are being called:
             }
 ```
 
+The "relevant values of the argument" are strings that get added to this array:
+```java
+    String word[] = new String[99];  
+```
+
+When it comes to the class, these strings are just being managed by all the code here...:
+
+![image](https://user-images.githubusercontent.com/86514102/198816462-6cc2798f-1cdb-4f6a-a799-090bb7254014.png)
+
+... All of these are just variables keeping track of the index of the array, the word itself, and are being used for other methods like "display" and /search. 
+But in the context of just the add method, we just need to think about the first two. If these values change, the method will just add even more strings into our array. This is completely indedpendent of all the values prior.
+
+The next screenshot is how I use the query, "search". 
+First, this is the code:
+```java
+            if(url.getPath().contains("/search")){
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    searcher = (parameters[1]);
+                }
+                for(int i=0; i<counter; i++){
+                    if(word[i].contains(searcher)){
+                        matches = matches + " " + word[i];
+                    }
+                }
+                return ("Displaying all the words with the word: " + searcher + " \n" + matches);
+            }
+```
+The screenshot:
+
+![image](https://user-images.githubusercontent.com/86514102/198816604-6eb21a62-1ae5-43f8-bfd6-276dd697e7dc.png)
+
+This method uses the string "matches" than has been tracking the strings used via add, and now searches through it via the .contains method.
+The relevant arguments are strings that you wish to look up that have been added via the add function. If these values change it will operate just like a search method would, searching instead for a new string rather than the old.
+
+I also added a method called display, as I believe that is particular useful when it comes to keeping track of the array.
+
+![image](https://user-images.githubusercontent.com/86514102/198816744-12ba0e7f-b3bf-47d7-9a58-47209762de49.png)
+
+This is self-explanatory, the call to this method just displays all the values in the array. New instances or calls to this method are independent of the ones prior, simply displaying with is currently in the "words" array.
 
 
 
