@@ -184,7 +184,11 @@ This was the result:
 Second Error:
 
 The failure-inducing input (the code of the test)
-
 The symptom (the failing test output)
 The bug (the code fix needed)
 Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
+
+
+I don't think I can do this without some extra help, I'm encountering error after error. I feel familiar with LinkedLists and Lists but am having a hard time with all the errors in creating a test. This is what I have so far:
+
+![image](https://user-images.githubusercontent.com/86514102/198818340-4da1a729-c45a-4f15-95f1-de0b740b6ab1.png)
