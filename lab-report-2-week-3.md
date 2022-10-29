@@ -109,7 +109,7 @@ When it comes to the class, these strings are just being managed by all the code
 ![image](https://user-images.githubusercontent.com/86514102/198816462-6cc2798f-1cdb-4f6a-a799-090bb7254014.png)
 
 ... All of these are just variables keeping track of the index of the array, the word itself, and are being used for other methods like "display" and /search. 
-But in the context of just the add method, we just need to think about the first two. If these values change, the method will just add even more strings into our array. This is completely indedpendent of all the values prior.
+But in the context of just the add method, we just need to think about the first two. What this means is that the purpose of this add method is to add values into our word array, but in the backend of things the words are being stored for other purposes (other methods). If these values change, the method will just add even more strings into our array. This is completely indedpendent of all the values prior.
 
 The next screenshot is how I use the query, "search". 
 First, this is the code:
@@ -132,7 +132,7 @@ The screenshot:
 ![image](https://user-images.githubusercontent.com/86514102/198816604-6eb21a62-1ae5-43f8-bfd6-276dd697e7dc.png)
 
 This method uses the string "matches" than has been tracking the strings used via add, and now searches through it via the .contains method.
-The relevant arguments are strings that you wish to look up that have been added via the add function. If these values change it will operate just like a search method would, searching instead for a new string rather than the old.
+The relevant arguments are strings that you wish to look up that have been added via the add function. When it comes to relevant arguements in the class, the strings are all that are releveant. As they are being kept track of via the array, but they are actually independent of the other methods inside the class. If these values change it will operate just like a search method would, searching instead for a new string rather than the old. 
 
 I also added a method called display, as I believe that is particular useful when it comes to keeping track of the array.
 
