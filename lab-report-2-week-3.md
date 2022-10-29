@@ -79,8 +79,13 @@ This is what follow when you click the "link",
 ![image](https://user-images.githubusercontent.com/86514102/198816226-994aec12-04f1-47d6-b3d8-5fb8220391c8.png)
 
 Here are a few examples of using the "add method":
+
 ![image](https://user-images.githubusercontent.com/86514102/198816301-be83bc18-a835-463a-a2dc-160c5149fbd2.png)
+
 ![image](https://user-images.githubusercontent.com/86514102/198816306-9ce3c39b-c28f-490a-b2a0-0b637f17ea37.png)
+
+![image](https://user-images.githubusercontent.com/86514102/198816319-70850953-8431-4045-800e-9ac4b1f87cf7.png)
+
 
 
 
