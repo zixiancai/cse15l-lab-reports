@@ -179,3 +179,12 @@ This is how I did it:
 This was the result:
 ![the result of array changes](the%20result%20of%20array%20changes.png)
 
+
+
+Second Error:
+
+The failure-inducing input (the code of the test)
+
+The symptom (the failing test output)
+The bug (the code fix needed)
+Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
