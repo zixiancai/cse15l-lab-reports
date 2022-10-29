@@ -1,3 +1,75 @@
+Part 1
+
+The following is my code for SearchEngine.java:
+
+```java
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    int counter = 0;
+    String word[] = new String[99];  
+    String words = "";
+    String searcher;
+    String matches = "";
+
+
+    public String handleRequest(URI url) {
+        
+        if (url.getPath().equals("/")) {
+            return ("You need to enter a word");
+        } 
+        else {
+            //System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    word[counter] = (parameters[1]);
+                    counter++;
+                    words = words + " " + word[counter-1];
+                    return ("You have added the word: " + word[counter-1]);
+                
+            }
+        }
+            if(url.getPath().contains("/display")){
+                return words;
+            }
+
+            if(url.getPath().contains("/search")){
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    searcher = (parameters[1]);
+                }
+                for(int i=0; i<counter; i++){
+                    if(word[i].contains(searcher)){
+                        matches = matches + " " + word[i];
+                    }
+                }
+                return ("Displaying all the words with the word: " + searcher + " \n" + matches);
+            }
+
+            return "404 Not Found!";
+        }
+    }
+}
+
+class SearchEngine {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
+
+
 Part 2
 
 The failure-inducing input (the code of the test)
