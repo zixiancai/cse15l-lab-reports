@@ -140,6 +140,49 @@ Because I have accessed or made changes to all of these files they show up. But 
 
 
 
+Finally we have grep, a command that searches for specific patterns in individual files.
+
+A very notable command to add to the command line of grep would be -c:
+
+![image](https://user-images.githubusercontent.com/86514102/199048319-505c3906-ec91-4924-94dc-7c6cca35e353.png)
+
+A command like this:
+```grep -c planes */chapter1.txt```
+
+Will produce:
+
+![image](https://user-images.githubusercontent.com/86514102/199048488-2682ff04-e8c0-4f7b-b315-37cdebdd0346.png)
+
+instead of the messy default of the entire file, highlighting every word. 
+I believe this command is useful because sometimes you just want the number of times a word appears in a file, not where and when. Maybe you have a essay and you feel like you use a certain word too many times. This command would be quite perfect, as all you need to determine if you use a word too much is the number of times you use it.
+
+Another useful command would be:
+
+![image](https://user-images.githubusercontent.com/86514102/199049128-3f7ec363-6a3b-4fc7-82ea-edaad0881a9f.png)
+
+An example of me using it:
+
+```grep -L Osama */chapter-3.txt```
+
+![image](https://user-images.githubusercontent.com/86514102/199049386-15ee5276-9a4d-41d3-af6c-485335e8aa1d.png)
+
+This command, "-L", prints the names of the files that DON'T have a specific pattern. This could be particularly useful when it comes to looking up the same word in a stack of papers/files. The first thing that comes to mind might be something like a essay checker for teachers. If there is a phrase that is sus for a student to be saying, they could use this command to pull all the "papers" or text documents that have this phrase. 
+
+
+Lastly, a wierd command I came across was this:
+
+![image](https://user-images.githubusercontent.com/86514102/199050517-5e5a2f3f-1bec-4384-84ca-6822e4043279.png)
+
+```grep --quiet Usama */chapter-3.txt```
+
+
+![image](https://user-images.githubusercontent.com/86514102/199050750-d9d353f0-f3d9-4549-8af9-4625dd7dcfa2.png)
+
+This command does not write anything, exits if there actually is a pattern found, and exits in the case of an error. It is hard to think about why exactly you would want something like this command line in your grep command. The only thing I can think of is if you are passing this command as a argument for another. What this means is that if you were to combine grep with find or some other command, the output might be too convoluted or messy. Blocking the output so it displays nothing no matter what, is a good alternative to having a messy output. 
+
+
+
+
 
 
 
