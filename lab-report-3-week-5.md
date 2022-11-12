@@ -190,8 +190,8 @@ This command, "-L", prints the names of the files that DON'T have a specific pat
 
 Another example would be this:
 
-```grep-L "TEXAS" 911report/chapter-7.txt```
-grep-L "CALIFORNIA" 911report/chapter-7.txt
+```grep -L "TEXAS" 911report/chapter-7.txt```
+```grep -L "CALIFORNIA" 911report/chapter-7.txt```
 
 ![image](https://user-images.githubusercontent.com/86514102/201457939-3bb54698-1db0-437f-afbd-69325ffd5221.png)
 
