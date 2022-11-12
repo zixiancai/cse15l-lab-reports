@@ -167,9 +167,12 @@ This is a example of me using grep -c to search for a "Background" string in all
 
 My last example of grep -c would be:
 
+![image](https://user-images.githubusercontent.com/86514102/201457756-32a73fa8-3fba-4839-8bfd-8b74ca435364.png)
+
+Even though grep is meant to be used to search for patterns, you can tweak it using -c to search for words or characters like you would with word count. By putting in " " as a arguement you can see how many whitespaces are in a .txt file. This might help you find the word count and allow you to detect if there are any blank spaces students used to fill up their essay.
 
 
-Another useful command would be:
+Another useful grep command would be:
 
 ![image](https://user-images.githubusercontent.com/86514102/199049128-3f7ec363-6a3b-4fc7-82ea-edaad0881a9f.png)
 
