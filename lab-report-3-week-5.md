@@ -161,11 +161,15 @@ I believe this command is useful because sometimes you just want the number of t
 
 Here is another example of this but with multiple files:
 
+```grep -c "Background" biomed/*.txt```
+
 ![image](https://user-images.githubusercontent.com/86514102/201457429-d8fe3725-cc4e-4d36-9713-54ec10d15d86.png)
 
 This is a example of me using grep -c to search for a "Background" string in all the text files inside of biomed. This is particularly useful say if you have suspicions of a word being used too many times when it comes to multiple files. Take a example like student submitted texts such as essays. Maybe a third grade class is turning in text files that contain too many instances of the word "Trichotillomania", or "Tergiversation", or any big word that shouldn't be in there vocabulary. 
 
 My last example of grep -c would be:
+
+```grep -c " " biomed/*.txt```
 
 ![image](https://user-images.githubusercontent.com/86514102/201457756-32a73fa8-3fba-4839-8bfd-8b74ca435364.png)
 
@@ -186,12 +190,18 @@ This command, "-L", prints the names of the files that DON'T have a specific pat
 
 Another example would be this:
 
+```grep-L "TEXAS" 911report/chapter-7.txt```
+grep-L "CALIFORNIA" 911report/chapter-7.txt
+
 ![image](https://user-images.githubusercontent.com/86514102/201457939-3bb54698-1db0-437f-afbd-69325ffd5221.png)
 
 
 The chapter-7.txt file talks about the "First arrivals in California". Say I was tired of hearing about papers on Texas and wanted to hear about anything about California. I would use grep -L to test if a file was about Texas. And since we saw chapter 7 pop up, it doesn't contain the string "Texas". And if I use the same command but on "California" it will display nothing, showing that the file indeed was talking about California.
 
 For my final example of grep -L:
+
+```grep-L "1999" 911report/*.txt```
+```grep-L "1990" 911report/*.txt.txt```
 
 ![image](https://user-images.githubusercontent.com/86514102/201458047-84317bb8-ed43-4777-9390-ccd60d8ad2bf.png)
 
@@ -211,6 +221,7 @@ For my last command, I chose this wierd command:
 
 This command does not write anything, exits if there actually is a pattern found, and exits in the case of an error. It is hard to think about why exactly you would want something like this command line in your grep command. The only thing I can think of is if you are passing this command as a argument for another. What this means is that if you were to combine grep with find or some other command, the output might be too convoluted or messy. Blocking the output so it displays nothing no matter what, is a good alternative to having a messy output. 
 
+Another example of this would be: 
 
 
 
