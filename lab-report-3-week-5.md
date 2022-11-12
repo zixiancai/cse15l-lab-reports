@@ -182,10 +182,25 @@ An example of me using it:
 
 ![image](https://user-images.githubusercontent.com/86514102/199049386-15ee5276-9a4d-41d3-af6c-485335e8aa1d.png)
 
-This command, "-L", prints the names of the files that DON'T have a specific pattern. This could be particularly useful when it comes to looking up the same word in a stack of papers/files. The first thing that comes to mind might be something like a essay checker for teachers. If there is a phrase that is sus for a student to be saying, they could use this command to pull all the "papers" or text documents that have this phrase. 
+This command, "-L", prints the names of the files that DON'T have a specific pattern. This could be particularly useful when it comes to looking up the same word in a stack of papers/files. The first thing that comes to mind might be something like a essay checker for teachers. If there is a phrase that is sus for a student to be saying, they could use this command to pull all the "papers" or text documents that have and don't this phrase. 
+
+Another example would be this:
+
+![image](https://user-images.githubusercontent.com/86514102/201457939-3bb54698-1db0-437f-afbd-69325ffd5221.png)
 
 
-Lastly, a wierd command I came across was this:
+The chapter-7.txt file talks about the "First arrivals in California". Say I was tired of hearing about papers on Texas and wanted to hear about anything about California. I would use grep -L to test if a file was about Texas. And since we saw chapter 7 pop up, it doesn't contain the string "Texas". And if I use the same command but on "California" it will display nothing, showing that the file indeed was talking about California.
+
+For my final example of grep -L:
+
+![image](https://user-images.githubusercontent.com/86514102/201458047-84317bb8-ed43-4777-9390-ccd60d8ad2bf.png)
+
+I decided to use a year as my input string. This can be particularly useful for sorting a journal or folder with multiple text files chronologically. We can see that documents that don't contain the year "1999" and "1990" pop up. Therefore, we can use this information to put them somewhere before or after the other text files in this folder.
+
+
+
+
+For my last command, I chose this wierd command:
 
 ![image](https://user-images.githubusercontent.com/86514102/199050517-5e5a2f3f-1bec-4384-84ca-6822e4043279.png)
 
