@@ -234,9 +234,9 @@ Another example of -i:
 
 ![image](https://user-images.githubusercontent.com/86514102/201461627-e964ce2c-84a9-4e20-a0d0-5feabe1e3c14.png)
 
-Sometimes cases can completely change the output. By using -i, we can actually confirm that our command works as intended
+Sometimes cases can completely change the output. By using -i, we can actually confirm that our command works as intended. The default command of "grep" doesn't do this, making this quite important when doing multiple searches through various documents.
 
-Last example of -i:
+Third example of -i:
 
 ```grep "america" 911report/chapter-13.1.txt```
 ```grep -i "america" 911report/chapter-13.1.txt```
@@ -259,9 +259,6 @@ This is a fourth command for grep:
 ![image](https://user-images.githubusercontent.com/86514102/199050750-d9d353f0-f3d9-4549-8af9-4625dd7dcfa2.png)
 
 This command does not write anything, exits if there actually is a pattern found, and exits in the case of an error. It is hard to think about why exactly you would want something like this command line in your grep command. The only thing I can think of is if you are passing this command as a argument for another. What this means is that if you were to combine grep with find or some other command, the output might be too convoluted or messy. Blocking the output so it displays nothing no matter what, is a good alternative to having a messy output. 
-
-Another example of this would be: 
-
 
 
 
