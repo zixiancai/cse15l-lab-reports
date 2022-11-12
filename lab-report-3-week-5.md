@@ -1,3 +1,6 @@
+Edit:
+I read the assignment incorrectly and did 3 different options for 3 different commands. I don't want to erase anything so I will just add two more examples for each of the "grep" command options, for a total of 3 grep commands that have 3 different examples.
+
 Starting off with the "less" command. By default, the less command outputs a file's contents and allows you to navigate through the file very much like a webpage. 
 Where you can scroll via the arrow keys in terminal. Here is a example of the default:
 
@@ -153,8 +156,18 @@ Will produce:
 
 ![image](https://user-images.githubusercontent.com/86514102/199048488-2682ff04-e8c0-4f7b-b315-37cdebdd0346.png)
 
-instead of the messy default of the entire file, highlighting every word. 
+instead of the messy default of the entire file, which just highlights every instance of a word. 
 I believe this command is useful because sometimes you just want the number of times a word appears in a file, not where and when. Maybe you have a essay and you feel like you use a certain word too many times. This command would be quite perfect, as all you need to determine if you use a word too much is the number of times you use it.
+
+Here is another example of this but with multiple files:
+
+![image](https://user-images.githubusercontent.com/86514102/201457429-d8fe3725-cc4e-4d36-9713-54ec10d15d86.png)
+
+This is a example of me using grep -c to search for a "Background" string in all the text files inside of biomed. This is particularly useful say if you have suspicions of a word being used too many times when it comes to multiple files. Take a example like student submitted texts such as essays. Maybe a third grade class is turning in text files that contain too many instances of the word "Trichotillomania", or "Tergiversation", or any big word that shouldn't be in there vocabulary. 
+
+My last example of grep -c would be:
+
+
 
 Another useful command would be:
 
