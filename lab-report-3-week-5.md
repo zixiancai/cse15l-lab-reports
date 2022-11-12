@@ -207,10 +207,12 @@ For my final example of grep -L:
 
 I decided to use a year as my input string. This can be particularly useful for sorting a journal or folder with multiple text files chronologically. We can see that documents that don't contain the year "1999" and "1990" pop up. Therefore, we can use this information to put them somewhere before or after the other text files in this folder.
 
+I chose this for my third grep command:
 
 
 
-For my last command, I chose this wierd command:
+
+This is a fourth command for grep:
 
 ![image](https://user-images.githubusercontent.com/86514102/199050517-5e5a2f3f-1bec-4384-84ca-6822e4043279.png)
 
