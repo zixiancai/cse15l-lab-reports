@@ -209,6 +209,43 @@ I decided to use a year as my input string. This can be particularly useful for 
 
 I chose this for my third grep command:
 
+![image](https://user-images.githubusercontent.com/86514102/201461282-579ad07a-b0f3-4a3b-8abb-35030f256224.png)
+
+```grep "world" 911report/chapter-13.1.txt```
+```grep -i "world" 911report/chapter-13.1.txt```
+
+```grep "WORLD" 911report/chapter-13.1.txt```
+```grep -i "WORLD" 911report/chapter-13.1.txt```
+
+```grep "World" 911report/chapter-13.1.txt```
+```grep -i "world" 911report/chapter-13.1.txt```
+
+This is another in line command that allows the command to ignore the cases. This is quite important because in the context of searching patterns via grep, you really don't want to have the case get in the way of your search. This example shows how grep doesn't search for all the strings "world" without -i, as some are "World" like in "World War". This is important because words can have different meanings depending on their case.
+
+![image](https://user-images.githubusercontent.com/86514102/201461509-60f2d9ba-2a75-4eed-a4a7-3f42bec51215.png)
+![image](https://user-images.githubusercontent.com/86514102/201461524-e41f9e68-e55c-41e7-a021-438a8c07c378.png)
+
+
+Another example of -i:
+
+```grep "WAR" 911report/chapter-13.1.txt```
+
+```grep -i "WAR" 911report/chapter-13.1.txt```
+
+![image](https://user-images.githubusercontent.com/86514102/201461627-e964ce2c-84a9-4e20-a0d0-5feabe1e3c14.png)
+
+Sometimes cases can completely change the output. By using -i, we can actually confirm that our command works as intended
+
+Last example of -i:
+
+```grep "america" 911report/chapter-13.1.txt```
+```grep -i "america" 911report/chapter-13.1.txt```
+Grep searching can be used to spot all the errors in a text file. And -i can be specifically used to spot the misspelling of countries or names, as their first letter should be capitilized. If you were forced to use grep to solve a problem in a text file, -i could be the solution to searching for un-capatilized letters to countries or names. 
+
+![image](https://user-images.githubusercontent.com/86514102/201461784-ecd49ad8-24ab-47d0-9284-d342a2c3e7f2.png)
+
+In this particular example, we have confirmed using -i, that there truly are no "america"'s in the text file. And by looking through the output, we can also confirm that their only exists "America"'s capatilized.
+
 
 
 
