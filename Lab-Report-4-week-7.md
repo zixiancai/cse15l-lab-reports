@@ -114,8 +114,13 @@ This is the screenshot:
 
 
 
+So to sum up this is the entire string of commands we used:
 
+```vim DocSearchServer.java<Enter>```
 
+Then: 
+
+```/star<Enter>cebase<Esc>n.n.n.:wq!```
 
 
 
