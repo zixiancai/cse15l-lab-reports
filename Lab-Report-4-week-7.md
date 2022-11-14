@@ -124,11 +124,53 @@ Then:
 
 Part 2:
 
-![image](https://user-images.githubusercontent.com/86514102/201664155-2d53c578-fd8d-4333-a4a8-c1652c6146e4.png)
+Me manually making the change:
+
+![image](https://user-images.githubusercontent.com/86514102/201667115-62f12262-ec2e-4bb9-9207-f8c745391ea8.png)
+
+Scp:
 
 ![image](https://user-images.githubusercontent.com/86514102/201664011-50201c8b-6a42-4ad4-8ddf-f4890e11ed7d.png)
 
+Ssh:
+
 ![image](https://user-images.githubusercontent.com/86514102/201664115-1a4f3227-cfa7-4db0-88e0-4e7b903f2412.png)
+
+Bash:
+
+![image](https://user-images.githubusercontent.com/86514102/201667770-0dcb385d-a922-4a8e-86d7-1c1bc1adfdd7.png)
+
+![image](https://user-images.githubusercontent.com/86514102/201667881-3b622e89-d3b6-4ec0-9b1c-bdcf4ae8d0a9.png)
+
+This took a total of ~7 minutes. Including the 4-5 minutes of scp, recursively copying the files.
+
+
+Using vim:
+
+(Just repeating the task from part 1)
+
+
+```vim DocSearchServer.java<Enter>```
+
+```/star<Enter>cebase<Esc>n.n.n.:wq!```
+
+![image](https://user-images.githubusercontent.com/86514102/201669735-c7b5a95e-5e52-4d8e-8ced-8f610d63e32a.png)
+
+
+This totaled to roughly 3 minutes. Not much difficulties in general, just annoying that I have to wait for scp.
+
+
+Questions:
+Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+
+If I had to work on a program remotely I would actually choose making the changes locally then scp'ing it. This is because a code editor like VScode allows me to see the changes, make changes to it instantly, and compile/test it instantly. Whereas remotely, I have to use something like vim, albeit quite efficent and useful, which honestly might cause more problems than it helps. Also, I believe you have to be extra careful with the remote server because it is very much like a final draft as you are uploading permanent changes to the server. Where as locally, you might be able to test it like it were a "rough draft".
+
+
+What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+If the project or task simply involved typing and fixing a few syntax errors, I would defnitely choose to use something like vim remotely to make changes. However, for large projects that require a train of though or maybe peer review. I have to choose local changes and uploading it to the remote server. This is because people can easily look at your code, make changes, and test your code before uploading it to an offical database or server. This also brings up the topic of security and how important it is to have a secure live server. Maybe in the context of a bank, a data breach might be easily possible because of the errors you uploaded to the cloud. By testing the changes locally, this brings more benefits to situations like this.
+
+
+
 
 
 
