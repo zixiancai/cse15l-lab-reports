@@ -122,6 +122,18 @@ Then:
 
 ```/star<Enter>cebase<Esc>n.n.n.:wq!```
 
+Part 2:
+
+![image](https://user-images.githubusercontent.com/86514102/201664155-2d53c578-fd8d-4333-a4a8-c1652c6146e4.png)
+
+![image](https://user-images.githubusercontent.com/86514102/201664011-50201c8b-6a42-4ad4-8ddf-f4890e11ed7d.png)
+
+![image](https://user-images.githubusercontent.com/86514102/201664115-1a4f3227-cfa7-4db0-88e0-4e7b903f2412.png)
+
+
+
+
+
 
 
 
