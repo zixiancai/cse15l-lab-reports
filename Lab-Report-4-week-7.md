@@ -167,6 +167,8 @@ If I had to work on a program remotely I would actually choose making the change
 
 
 What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+
+
 If the project or task simply involved typing and fixing a few syntax errors, I would defnitely choose to use something like vim remotely to make changes. However, for large projects that require a train of though or maybe peer review. I have to choose local changes and uploading it to the remote server. This is because people can easily look at your code, make changes, and test your code before uploading it to an offical database or server. This also brings up the topic of security and how important it is to have a secure live server. Maybe in the context of a bank, a data breach might be easily possible because of the errors you uploaded to the cloud. By testing the changes locally, this brings more benefits to situations like this.
 
 
