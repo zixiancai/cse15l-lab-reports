@@ -14,3 +14,5 @@ hello
 [Lab Report 2](https://zixiancai.github.io/cse15l-lab-reports/lab-report-2-week-3.html)
 
 [Lab Report 3](https://zixiancai.github.io/cse15l-lab-reports/lab-report-3-week-5.html)
+
+[Lab Report 4](https://zixiancai.github.io/cse15l-lab-reports/Lab Report 4 – Vim (Week 7).html)
