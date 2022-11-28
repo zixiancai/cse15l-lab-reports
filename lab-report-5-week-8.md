@@ -87,7 +87,7 @@ I will be choosing this example:
 
 Line 1:
 
-``` CPATH=".;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar" ```
+``` CPATH ".;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar" ```
 
 What this did was create a variable called CPATH that is simply copies the required snippet to run JUnit from week3.
 
