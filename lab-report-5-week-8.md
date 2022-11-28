@@ -204,4 +204,7 @@ Lines 24-30:
 fi 
 ```
 Since our return code for our previous statement was "0", this if statement holds true. Therefore, lines 24-26 and 30 will run.
+As a result, 28-30 will not run. 
+
+Also, for this code snippet, the standard
 
