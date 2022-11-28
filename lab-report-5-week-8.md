@@ -89,8 +89,9 @@ Line 1:
 
 ```CPATH=".;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar"```
 
-What this did was create a variable called CPATH that is simply copies the required snippet to run JUnit from week3. I also had a few errors with my OS being windows
-and looking at Piazza posts I solved a few of my issues with this.
+What this did was create a variable called CPATH that is simply copies the required snippet to run JUnit from week3.
+
+I also had a few errors with my OS being windows and looking at Piazza posts I solved a few of my issues with this.
 
 - Standard Output: Nothing 
 
@@ -102,8 +103,9 @@ The next line with a command (line 3) contains this:
 
 ```rm -rf student-submission```
 
-This is just to remove, recursively, a "student-submission" file/directory that already exists...if there was one. This is good measure because we don't want 
-previously submitted student submissions to replace the grade of all the subsequent ones.
+This is just to remove, recursively, a "student-submission" file/directory that already exists...if there was one.
+
+This is good measure because we don't want previously submitted student submissions to replace the grade of all the subsequent ones.
 
 - Standard Output: Nothing 
 
@@ -174,8 +176,8 @@ fi
 
 This esentially asks if "ListExamples.java" can be found with "-f". 
 
-In this repository, it can be found and subsequently
-the echo statement is then released, echoing "Found ListExamples.java...".
+In this repository, it can be found and subsequently the echo statement is then released, echoing "Found ListExamples.java...".
+
 Since everything else before the fi is bound by the else statement, the lines 18 and 19 did not run.
 
 Summing this up:
@@ -211,6 +213,7 @@ fi
 ```
 
 Since our return code for our previous statement was "0", this if statement holds true. Therefore, lines 24-26 and 30 will run.
+
 As a result, 28-30 will not run. 
 
 Also, for this code snippet, the standard output was nothing. 
