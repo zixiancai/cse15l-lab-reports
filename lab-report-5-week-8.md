@@ -92,11 +92,11 @@ Line 1:
 What this did was create a variable called CPATH that is simply copies the required snippet to run JUnit from week3. I also had a few errors with my OS being windows
 and looking at Piazza posts I solved a few of my issues with this.
 
--Standard Output: Nothing 
+- Standard Output: Nothing 
 
--Standard Error: Nothing
+- Standard Error: Nothing
 
--Return Code: 0
+- Return Code: 0
 
 The next line with a command (line 3) contains this:
 
@@ -105,11 +105,11 @@ The next line with a command (line 3) contains this:
 This is just to remove, recursively, a "student-submission" file/directory that already exists...if there was one. This is good measure because we don't want 
 previously submitted student submissions to replace the grade of all the subsequent ones.
 
--Standard Output: Nothing 
+- Standard Output: Nothing 
 
--Standard Error: Nothing
+- Standard Error: Nothing
 
--Return Code: 0
+- Return Code: 0
 
 Next is line 5:
 
@@ -117,11 +117,11 @@ Next is line 5:
 
 This just creates a new directory. This will be useful later because we want to move TestListExamples.java into this new directory. 
 
--Standard Output: Nothing 
+- Standard Output: Nothing 
 
--Standard Error: Nothing
+- Standard Error: Nothing
 
--Return Code: 0
+- Return Code: 0
 
 Next, line 7:
 
@@ -153,11 +153,11 @@ Line 11:
 
 Changing the directory to "student-submission"
 
-Standard Output: Nothing 
+- Standard Output: Nothing 
 
-Standard Error: Nothing
+- Standard Error: Nothing
 
-Return Code: 0
+- Return Code: 0
 
 Next is the if statement:
 
@@ -187,11 +187,11 @@ Line 22:
 Now that we tested and grade for the existence of ListExamples.java, we need to compile javac. This will also spot out any compilation errors and provide a return code
 that we will be using.
 
-Standard Output: Nothing 
+- Standard Output: Nothing 
 
-Standard Error: Nothing
+- Standard Error: Nothing
 
-Return Code: 0
+- Return Code: 0
 
 Lines 24-30:
 
