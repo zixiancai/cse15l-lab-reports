@@ -165,7 +165,8 @@ Next is the if statement:
 
 (Lines 14-20)
 
-```if [[ -f "ListExamples.java" ]]
+```
+if [[ -f "ListExamples.java" ]]
     then 
         echo "Found ListExamples.java, +1 Point (1/1)"
     else
@@ -203,7 +204,8 @@ that we will be using.
 
 Lines 24-30:
 
-```if [[ $? -eq 0 ]]
+```
+if [[ $? -eq 0 ]]
     then 
         echo "No Compilation Error! Good Job, +1 Point (2/2)"
     else 
