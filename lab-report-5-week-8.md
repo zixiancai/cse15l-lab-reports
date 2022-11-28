@@ -206,5 +206,52 @@ fi
 Since our return code for our previous statement was "0", this if statement holds true. Therefore, lines 24-26 and 30 will run.
 As a result, 28-30 will not run. 
 
-Also, for this code snippet, the standard
+Also, for this code snippet, the standard output was nothing. Just like if you were to do javac in another context, it would output nothing if there were no errors.
+And since there were no errors, there is no standard error. The return code for all the lines ran would be "0".
+
+Line 32:
+
+```java -cp $CPATH org.junit.runner.JUnitCore TestListExamples > outputFile.txt```
+
+We are running java and outputing all the standard output into OutputFile.txt for TestListExamples.
+
+In this context for this specific repository, there is no standard error and no standard output because we are redirecting all of the standard output
+into "outputFile.txt". The return code is 0 for this line since everything was sucessful in running.
+
+
+
+For the final lines 34-43:
+
+```if [[ $? -eq 0 ]]
+    then
+        cat outputFile.txt
+        echo "Tests Passed! Good Job, +2 Points (4/4)"
+        exit
+    else 
+        cat outputFile.txt
+        echo "Tests Failed! Grade: 2/4"
+        exit
+fi
+```
+We have a if statement that holds true because the previous return code was 0.
+As a result only lines 34-38 and 43 run, while 39-40 do not. 
+
+These lines that ran have standard output: 
+Line 36 outputs the standard output of line 32:
+```
+JUnit version 4.13.2
+..
+Time: 0.007
+
+OK (2 tests)
+
+```
+
+Line 37 has standard output as a result of the echo command:
+"Tests Passed! Good Job, +2 Points (4/4)"
+
+They both had no standard error and had a return code of 0.
+
+The rest of the lines had no standard output, error, and all had a return code of 0.
+
 
