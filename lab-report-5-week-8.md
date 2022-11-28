@@ -209,6 +209,7 @@ Lines 24-30:
         exit 0
 fi 
 ```
+
 Since our return code for our previous statement was "0", this if statement holds true. Therefore, lines 24-26 and 30 will run.
 As a result, 28-30 will not run. 
 
@@ -233,6 +234,7 @@ The return code is 0 for this line since everything was sucessful in running.
 
 For the final lines 34-43:
 
+
 ```
 if [[ $? -eq 0 ]]
     then
@@ -245,6 +247,7 @@ if [[ $? -eq 0 ]]
         exit
 fi
 ```
+
 We have a if statement that holds true because the previous return code was 0.
 As a result only lines 34-38 and 43 run, while 39-40 do not. 
 
