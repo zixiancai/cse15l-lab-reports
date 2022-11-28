@@ -222,7 +222,8 @@ into "outputFile.txt". The return code is 0 for this line since everything was s
 
 For the final lines 34-43:
 
-```if [[ $? -eq 0 ]]
+```
+if [[ $? -eq 0 ]]
     then
         cat outputFile.txt
         echo "Tests Passed! Good Job, +2 Points (4/4)"
