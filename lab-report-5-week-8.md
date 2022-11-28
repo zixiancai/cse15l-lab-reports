@@ -141,11 +141,11 @@ Next, line 9:
 
 Copying TestListExamples.java into student submission.
 
-Standard Output: Nothing 
+- Standard Output: Nothing 
 
-Standard Error: Nothing
+- Standard Error: Nothing
 
-Return Code: 0
+- Return Code: 0
 
 Line 11:
 
