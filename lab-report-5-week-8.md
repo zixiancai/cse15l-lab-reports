@@ -172,19 +172,25 @@ Next is the if statement:
 fi 
 ```
 
-This esentially asks if "ListExamples.java" can be found with "-f". In this repository, it can be found and subsequently
-the echo statement is then released, echoing "Found ListExamples.java..."
+This esentially asks if "ListExamples.java" can be found with "-f". 
+
+In this repository, it can be found and subsequently
+the echo statement is then released, echoing "Found ListExamples.java...".
 Since everything else before the fi is bound by the else statement, the lines 18 and 19 did not run.
 
 Summing this up:
+
 Lines 14-17 and 20 ran, this is because the if statement was true, there can be a "ListExamples.java" found inside of the current directory.
+
 Also, all of the lines that ran didn't have any standard output, error, and of course their return code was 0.
 
 Line 22: 
 
 ```javac -cp $CPATH *.java```
 
-Now that we tested and grade for the existence of ListExamples.java, we need to compile javac. This will also spot out any compilation errors and provide a return code
+Now that we tested and grade for the existence of ListExamples.java, we need to compile javac. 
+
+This will also spot out any compilation errors and provide a return code
 that we will be using.
 
 - Standard Output: Nothing 
