@@ -142,7 +142,7 @@ Bash:
 
 ![image](https://user-images.githubusercontent.com/86514102/201667770-0dcb385d-a922-4a8e-86d7-1c1bc1adfdd7.png)
 
-![image](https://user-images.githubusercontent.com/86514102/201667881-3b622e89-d3b6-4ec0-9b1c-bdcf4ae8d0a9.png)
+![image](https://user-images.githubusercontent.com/86514102/201669735-c7b5a95e-5e52-4d8e-8ced-8f610d63e32a.png)
 
 This took a total of ~7 minutes. Including the 4-5 minutes of scp, recursively copying the files. Then less than 3 minutes to 
 go remotely via ssh and run the bash scipt.
@@ -159,7 +159,7 @@ I just repeated the task from part 1, these are the commands:
 
 ```/star<Enter>cebase<Esc>n.n.n.:wq!```
 
-![image](https://user-images.githubusercontent.com/86514102/201669735-c7b5a95e-5e52-4d8e-8ced-8f610d63e32a.png)
+![image](https://user-images.githubusercontent.com/86514102/201667881-3b622e89-d3b6-4ec0-9b1c-bdcf4ae8d0a9.png)
 
 
 This totaled to roughly 3 minutes. No difficulties at all. The only thing being the massive time consuming scp command for the first part of part two. 
