@@ -1,3 +1,5 @@
+Resubmission contains the entirety of part 2, I didn't double check that the GitHub page took a while to load after I made the edit.
+
 Part 1:
 
 This is what one of my lab partners did:
